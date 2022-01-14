@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>About | Meiyee Loo</title>
+        <link rel="icon" type="image/png" href="/meiyee/img/favicon/favicon-32x32.png">
+        <link rel="stylesheet" href="/styles.css">
+        <link rel="stylesheet" href="/function.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script src="/function.js"></script>
+    </head>
+    <body class="font-montserrat" ontouchstart="">
+        <!--top button-->
+        <div id="topBtn" style="max-width:1536px;" class="hidden m-auto flex justify-end">
+            <a href="#top" class="fixed z-10 pr-2.5 bottom-20 md:pr-5 md:bottom-24 xl:bottom-12">
+                <svg id="topBtnSvg" class="w-11 h-11 md:w-14 md:h-14" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg">                
+                    <circle id="circle1" cx="22" cy="22" r="22" />
+                    <circle id="circle2" cx="22" cy="22" r="21" stroke-width="2"/>
+                    <path d="M13 25L22.5 15L32 25" stroke-width="2"/>
+                </svg>
+            </a>
+        </div>
+        <!--main-->
+        <div class="m-auto max-w-screen-2xl px-5 md:px-10 xl:px-24">
+            <!--nav-->
+            <nav id="top" class="z-30 flex h-16 xl:h-20 justify-between items-center">
+                <!--placeholder-->
+                <div class="md:hidden">
+                    <svg width="44" height="44" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg"></svg>
+                </div>
+                <!--logo-->
+                <div>
+                    <a href="/meiyee" class="font-semibold text-lg md:text-xl xl:text-3xl">Meiyee Loo</a>
+                </div>
+                <!--nav item-->
+                <ul class="hidden md:flex md:justify-between uppercase">
+                    <li><a href="/meiyee" class="md:mr-8 xl:mr-12 opacity-50 hover:opacity-100 hover:underline">Work</a></li>
+                    <li><a href="/meiyee/about" class="hover:underline">About</a></li>               
+                </ul>
+                <!--nav icon-->
+                <div class="toggle md:hidden open">
+                    <div class="icon">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </div>
+            </nav>
+            <!--nav overlay-->
+            <div class="nav-overlay bg-white z-20 hidden m-auto justify-center items-center text-5xl text-center uppercase">
+                <ul>
+                    <li class="nav-overlay-gap"><a href="/meiyee">Work</a></li>
+                    <li><a href="/meiyee/about">About</a></li>               
+                </ul>
+            </div>
+            <!--content-->
+            <!--profile section-->
+            <div class="mt-2.5 xl:mt-12 xl:mx-24 md:flex md:items-start">
+                <div class="m-auto flex justify-center md:m-0 md:block md:mr-10">
+                    <img src="/meiyee/img/profile/profile@2x.png" alt="" style="max-width:182px;" class="w-36 md:w-44">
+                </div>
+                <div class="mt-8 md:mt-0">
+                    <div>
+                        <h2>Hi<span class="font-normal">👋</span>, I am Meiyee!</h2>
+                        <p class="mt-3">I am a self-taught, generalist designer based in Kuala Lumpur.</p>
+                        <ul class="list mt-3">
+                            <li>Began to approach the designer career since I was 25 (never too late!)</li>
+                            <li>Curious about everything and love challenges that keep me growing</li>
+                            <li>Love cats and coffee</li>
+                        </ul>
+                    </div>
+                    <div class="mt-8 xl:flex">
+                        <div class="xl:w-1/2">
+                            <h4>Skills</h4>
+                            <ul class="list mt-3">
+                                <li>UX research</li>
+                                    <ul class="sublist"><li>Usability study, user research, information architecture (IA)</li></ul>
+                                <li>UI design (responsive website & mobile app)</li>
+                                    <ul class="sublist"><li>Wireframing, prototyping, storyboarding, writing, design system</li></ul>
+                                <li>Visual design (digital & printed)</li>
+                                <li>Motion design & videos</li>
+                            </ul>
+                        </div>
+                        <div class="mt-8 xl:mt-0 xl:ml-8 xl:w-1/2">
+                            <h4>Tools & Knowledge</h4>
+                            <ul class="list mt-3">
+                                <li>Adobe Creative Clouds</li>
+                                    <ul class="sublist"><li>XD, Photoshop, Illustrator, After Effects</li></ul>
+                                <li>Sketch, Invision</li>
+                                <li>Figma</li>
+                                <li>Front end languages & frameworks</li>
+                                <ul class="sublist">
+                                    <li>HTML, CSS, Tailwind, basic JavaScript</li>
+                                </ul>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="mt-8 flex justify-center md:block">
+                        <a href="/meiyee/doc/Resume.pdf" target="_blank">
+                            <button>Download resume</button>
+                        </a>
+                    </div>
+                </div>
+            </div>        
+            <!--footer-->
+            <div class="text-center mt-12 mb-8 md:mt-16">
+                <p>Meiyee Loo © 2021</p>
+            </div>
+        </div>
+    </body>
+</html>
