@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Meiyee Loo</title>
+        <link rel="icon" type="image/png" href="./img/favicon/favicon-32x32.png">
+        <link rel="stylesheet" href="./styles.css">
+        <link rel="stylesheet" href="./function.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script src="./function.js"></script>
+    </head>
+    <body class="font-montserrat" ontouchstart="">
+        <!--top button-->
+        <div id="topBtn" style="max-width:1536px;" class="hidden m-auto flex justify-end">
+            <a href="#top" class="fixed z-10 pr-2.5 bottom-20 md:pr-5 md:bottom-24 xl:bottom-12">
+                <svg id="topBtnSvg" class="w-11 h-11 md:w-14 md:h-14" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg">                
+                    <circle id="circle1" cx="22" cy="22" r="22" />
+                    <circle id="circle2" cx="22" cy="22" r="21" stroke-width="2"/>
+                    <path d="M13 25L22.5 15L32 25" stroke-width="2"/>
+                </svg>
+            </a>
+        </div>
+        <!--main-->
+        <div class="m-auto max-w-screen-2xl px-5 md:px-10 xl:px-24">
+            <!--nav-->
+            <nav id="top" class="z-30 flex h-16 xl:h-20 justify-between items-center">
+                <!--placeholder-->
+                <div class="md:hidden">
+                    <svg width="44" height="44" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg"></svg>
+                </div>
+                <!--logo-->
+                <div>
+                    <a href="" class="font-semibold text-lg md:text-xl xl:text-3xl">Meiyee Loo</a>
+                </div>
+                <!--nav item-->
+                <ul class="hidden md:flex md:justify-between uppercase">
+                    <li><a href="" class="md:mr-8 xl:mr-12 hover:underline">Work</a></li>
+                    <li><a href="/about" class="opacity-50 hover:opacity-100 hover:underline">About</a></li>               
+                </ul>
+                <!--nav icon-->
+                <div class="toggle md:hidden open">
+                    <div class="icon">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </div>
+            </nav>
+            <!--nav overlay-->
+            <div class="nav-overlay bg-white z-20 hidden m-auto justify-center items-center text-5xl text-center uppercase">
+                <ul>
+                    <li class="nav-overlay-gap"><a href="">Work</a></li>
+                    <li><a href="/about">About</a></li>               
+                </ul>
+            </div>
+            <!--content-->
+            <!--project section-->
+            <div class="mt-2.5 md:mt-7 xl:mt-12">
+                <div class="text-center md:text-left md:flex md:items-stretch">
+                    <h1 class="md:mr-7 md:self-center">Projects</h1>
+                    <span class="hidden md:block md:mr-7 w-px bg-gray-darkest"></span>
+                    <p class="mt-5 md:mt-0 md:self-center">A mix of team and personal projects that showcase my thoughts and practices on UI design and UX research.</p>
+                </div>
+                <div class="mt-5 md:mt-7 xl:flex">
+                    <div class="group hover:bg-black xl:w-1/3 flex items-stretch">
+                        <a href="/redesigning-menu-of-uniqlos-e-commerce-site" class="w-full">
+                            <div class="p-4 sm:p-5 md:flex md:items-center xl:block">
+                                <img src="./img/home-project/P1-tn.png" srcset="./img/home-project/P1-tn@2x.png 2x" alt="" class="w-full md:w-1/2 md:mr-5 xl:w-full">
+                                <div class="md:w-1/2 xl:w-full mt-2 xl:mt-3">
+                                    <h4 class="group-hover:text-white">Redesigning menu of Uniqlo’s <span style="white-space: nowrap;">e-commerce</span> site</h4>
+                                    <p class="group-hover:text-white mt-1 underline">Read more</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="group hover:bg-black mt-5 xl:w-1/3 md:mt-0 flex items-stretch">
+                        <a href="/applying-iterative-design-on-a-cafes-app" class="w-full">
+                            <div class="p-4 sm:p-5 md:flex md:items-center xl:block">
+                                <img src="./img/home-project/P2-tn.png" srcset="./img/home-project/P2-tn@2x.png 2x" alt="" class="w-full md:w-1/2 md:mr-5 xl:w-full">
+                                <div class="md:w-1/2 xl:w-full mt-2 xl:mt-3">
+                                    <h4 class="group-hover:text-white ">Applying iterative design on a cafe’s app</h4>
+                                    <p class="group-hover:text-white mt-1 underline">Read more</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="group hover:bg-black mt-5 xl:w-1/3 md:mt-0 flex items-stretch">
+                        <a href="/redesigning-form-for-ocbc-online-account-opening" class="w-full">
+                            <div class="p-4 sm:p-5 md:flex md:items-center xl:block">
+                                <img src="./img/home-project/P3-tn.png" srcset="./img/home-project/P3-tn@2x.png 2x" alt="" class="w-full md:w-1/2 md:mr-5 xl:w-full">
+                                <div class="md:w-1/2 xl:w-full mt-2 xl:mt-3">
+                                    <h4 class="group-hover:text-white">Redesigning form for OCBC Online Account Opening</h4>
+                                    <p class="group-hover:text-white mt-1 underline">Read more</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <!--gallery section-->
+            <div class="mt-12 md:mt-16 xl:mt-20">
+                <div class="text-center md:text-left md:flex md:items-stretch">
+                    <h1 class="md:mr-7 md:self-center">Gallery</h1>
+                    <span class="hidden md:block md:mr-7 w-px bg-gray-darkest"></span>
+                    <p class="mt-5 md:mt-0 md:self-center">Different kinds of artwork that I have delivered while working for a fast-paced agency and for freelance clients.</p>
+                </div>
+                <div class="mt-5 md:mt-7 md:grid md:grid-cols-3 xl:grid-cols-5">
+                    <div class="hover:bg-black hover:text-white md:flex md:items-stretch">
+                        <a href="/animated-gifs-and-digital-visuals" class="w-full">
+                            <div class="flex items-center md:block md:p-5">
+                                <img src="./img/home-gallery/G1-tn.png" srcset="./img/home-gallery/G1-tn@2x.png 2x" alt="" class="w-1/2 md:w-full">
+                                <h4 class="w-1/2 pr-4 md:w-full md:pr-0 md:text-center">Animated GIFs & Digital Visuals</h4>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="hover:bg-black hover:text-white md:flex md:items-stretch">
+                        <a href="/emails" class="w-full">
+                            <div class="flex items-center md:block md:p-5">
+                                <img src="./img/home-gallery/G2-tn.png" srcset="./img/home-gallery/G2-tn@2x.png 2x" alt="" class="w-1/2 md:w-full">
+                                <h4 class="w-1/2 pr-4 md:w-full md:pr-0 md:text-center">Emails</h4>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="hover:bg-black hover:text-white md:flex md:items-stretch">
+                        <a href="/web-design" class="w-full">
+                            <div class="flex items-center md:block md:p-5">
+                                <img src="./img/home-gallery/G3-tn.png" srcset="./img/home-gallery/G3-tn@2x.png 2x" alt="" class="w-1/2 md:w-full">
+                                <h4 class="w-1/2 pr-4 md:w-full md:pr-0 md:text-center">Web Design</h4>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="hover:bg-black hover:text-white md:flex md:items-stretch">
+                        <a href="/iconography-and-logos" class="w-full">
+                            <div class="flex items-center md:block md:p-5">
+                                <img src="./img/home-gallery/G4-tn.png" srcset="./img/home-gallery/G4-tn@2x.png 2x" alt="" class="w-1/2 md:w-full">
+                                <h4 class="w-1/2 pr-4 md:w-full md:pr-0 md:text-center">Iconography & Logos</h4>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="hover:bg-black hover:text-white md:flex md:items-stretch">
+                        <a href="/printed-collaterals" class="w-full">
+                            <div class="flex items-center md:block md:p-5">
+                                <img src="./img/home-gallery/G5-tn.png" srcset="./img/home-gallery/G5-tn@2x.png 2x" alt="" class="w-1/2 md:w-full">
+                                <h4 class="w-1/2 pr-4 md:w-full md:pr-0 md:text-center">Printed Collaterals</h4>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <!--video section-->
+            <div class="mt-12 md:mt-16 xl:mt-20">
+                <div class="text-center md:text-left md:flex md:items-stretch">
+                    <h1 class="md:mr-7 md:self-center">Video</h1>
+                    <span class="hidden md:block md:mr-7 w-px bg-gray-darkest"></span>
+                    <p class="mt-5 md:mt-0 md:self-center">A one-minute video that I created from storyboard to final production. (Enjoy the video!)</p>
+                </div>
+                <div class="mt-5 md:mt-7">
+                    <div class="responsive">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/W5Qpj6eyUzA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                    <p class="text-center md:text-left underline mt-5 md:mt-7">
+                        <a href="./img/G6/G6-stb.pdf" target="_blank" class="hover:bg-black hover:text-white">Check out the full storyboard🎬</a>
+                    </p>
+                </div>
+            </div>
+            <!--old portfolio section-->
+            <div class="text-center md:text-left mt-12 md:mt-16 xl:mt-20">
+                <p>For my older projects, <span class="underline"><a href="https://meiyeeloo.blogspot.com/"  target="_blank" class="hover:bg-black hover:text-white">visit my older portfolio site👀</a></span> which I designed and built from scratch in 2020 by applying knowledge of HTML, CSS, and JavaScript with Blogger resources</p>
+            </div>
+            <!--footer-->
+            <div class="text-center mt-12 mb-8 md:mt-16">
+                <p>Meiyee Loo © 2021</p>
+            </div>
+        </div>
+    </body>
+</html>
+
