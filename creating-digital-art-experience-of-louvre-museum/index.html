@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Creating Digital Art Experience of Louvre Museum • Meiyee Loo</title>
+        <link rel="icon" type="image/png" href="../img/favicon/favicon-32x32.png">
+        <link rel="stylesheet" href="../styles.css">
+        <link rel="stylesheet" href="../function.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script src="../function.js"></script>
+    </head>
+    <body class="font-montserrat" ontouchstart="">
+        <!--top button-->
+        <div id="topBtn" style="max-width:1536px;" class="hidden m-auto flex justify-end">
+            <a href="#top" class="fixed z-10 pr-2.5 bottom-20 md:pr-5 md:bottom-24 xl:bottom-12">
+                <svg id="topBtnSvg" class="w-11 h-11 md:w-14 md:h-14" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg">                
+                    <circle id="circle1" cx="22" cy="22" r="22" />
+                    <circle id="circle2" cx="22" cy="22" r="21" stroke-width="2"/>
+                    <path d="M13 25L22.5 15L32 25" stroke-width="2"/>
+                </svg>
+            </a>
+        </div>
+        <!--main-->
+        <div class="m-auto max-w-screen-2xl px-5 md:px-10 xl:px-24">
+            <!--nav-->
+            <nav id="top" class="z-30 flex h-16 xl:h-20 justify-between items-center">
+                <!--placeholder-->
+                <div class="md:hidden">
+                    <svg width="44" height="44" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg"></svg>
+                </div>
+                <!--logo-->
+                <div>
+                    <a href=".." class="font-semibold text-lg md:text-xl xl:text-3xl">Meiyee Loo</a>
+                </div>
+                <!--nav item-->
+                <ul class="hidden md:flex md:justify-between uppercase">
+                    <li><a href=".." class="md:mr-8 xl:mr-12 opacity-50 hover:opacity-100 hover:underline">Work</a></li>
+                    <li><a href="/about" class="opacity-50 hover:opacity-100 hover:underline">About</a></li>               
+                </ul>
+                <!--nav icon-->
+                <div class="toggle md:hidden open">
+                    <div class="icon">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </div>
+            </nav>
+            <!--nav overlay-->
+            <div class="nav-overlay bg-white z-20 hidden m-auto justify-center items-center text-5xl text-center uppercase">
+                <ul>
+                    <li class="nav-overlay-gap"><a href="..">Work</a></li>
+                    <li><a href="/about">About</a></li>               
+                </ul>
+            </div>
+            <!--content-->
+            <!--article-->
+            <div>
+                <!--title section-->
+                <div class="title bg-ambre-light px-5 pt-24 pb-16 md:px-10 md:pt-28 md:pb-24 xl:px-36 xl:pt-32">
+                    <div class="titleContent xl:flex xl:justify-between xl:items-center xl:gap-8">
+                        <div class="text-center xl:text-left xl:mx-0 xl:w-1/2">
+                            <p>Dec 2021</p>
+                            <h2>Creating Digital Art Experience of Louvre Museum</h2>
+                            <div class="mt-2 xl:mt-5">
+                                <p>Self-Project • Art</p>
+                            </div>
+                            <div class="tag-group mt-8 xl:mt-12 flex justify-center xl:justify-start">
+                                <p class="tag">User Flow</p>
+                                <p class="tag">Mobile App Design</p>
+                            </div>
+                        </div>
+                        <div class="imgWrapper mt-8 md:mt-12 flex justify-center xl:mt-0">
+                            <img src="../img/louvre-museum/title-mock-up.png" srcset="../img/louvre-museum/title-mock-up@2x.png 2x" alt="" class="block">
+
+                        </div>
+                    </div>
+                </div>
+                <!--content section-->
+                <div class="m-auto">
+
+                    <div class="mt-16 md:mt-24 snippet">
+                        <h3>Introduction</h3>
+                        <p class="mt-2.5">
+                            Since travelling is not allowed during the pandemic lock down, I was inspired to design a digital experience of art exhibition for Louvre Museum.                        
+                        </p>
+                    </div>
+
+                    <div class="mt-16 md:mt-24 snippet">
+                        <h3>Problem</h3>
+                        <ul class="list mt-2.5">
+                            <div>
+                                <li>How to mimic the experience of visiting museum physically with current technology?</li> 
+                                <li>What made people love visiting Louvre Museum?</li>
+                                <li>What gave the museum a poor review?</li>
+                            </div>
+                        </ul>
+                    </div>
+
+                    <div class="mt-16 md:mt-24">
+                        <div class="snippet">
+                            <h3>Discover</h3>
+                            <p class="mt-2.5">
+                                Through Google Review, studied what visitors think and feel after a visit to discover existing painpoints and enjoyable experience.                        
+                            </p>
+                        </div>
+                        <img src="../img/louvre-museum/google-review.png" srcset="../img/louvre-museum/google-review@2x.png 2x" alt="" class="m-auto mt-5 md:mt-8">
+                    </div>
+
+                    <div class="mt-16 md:mt-24">
+                        <div class="snippet">
+                            <h3>User Flow</h3>
+                            <p class="mt-2.5">
+                                Defined a user flow which includes comprehensive user experience and different interactions.                        
+                            </p>
+                        </div>
+                        <img src="../img/louvre-museum/user-flow.png" srcset="../img/louvre-museum/user-flow@2x.png 2x" alt="" class="m-auto mt-5 md:mt-8">
+                    </div>
+
+                    <div class="mt-16 md:mt-24">
+                        <div class="snippet">
+                            <h3>Wireframing</h3>
+                            <p class="mt-2.5">
+                                Built low-fidelity wireframes to ensure the structure of every screen supports the user flow.                       
+                            </p>
+                        </div>
+                        <img src="../img/louvre-museum/wireframe.png" srcset="../img/louvre-museum/wireframe@2x.png 2x" alt="" class="m-auto mt-5 md:mt-8">
+                    </div>
+
+                    <div class="mt-16 md:mt-24">
+                        <div class="snippet">
+                            <h3>Design & Prototyping</h3>
+                            <p class="mt-2.5">
+                                Created high-fidelity design, prototyped the screen according to the user flow, and tested the result!
+                            </p>
+                            </div>
+                        <img src="../img/louvre-museum/design.png" srcset="../img/louvre-museum/design@2x.png 2x" alt="" class="m-auto mt-5 md:mt-8">
+                    </div>
+
+                    <div class="mt-16 md:mt-24">
+                        <p class="text-center">Take a look in the prototype?</p>
+                        <div class="mt-3 flex justify-center">
+                            <a href="mailto:meiyeeloo@hotmail.com" target="_blank">
+                                <button>Contact Me</button>
+                            </a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <!--project navigation-->
+            <hr class="mt-12 md:mt-20">
+            <div class="mt-12 md:mt-20 flex justify-between">
+                <div class="w-5/12 md:w-1/3">
+                    <p>Previous</p>
+                    <h4><a href="/standardising-design-system-with-material-design-3">Standardising Design System with Material Design 3</a></h4>
+                </div>
+                <div class="ml-5 text-right w-5/12 md:w-1/3">
+                    <p>Next</p>
+                    <h4><a href="/refining-menu-of-uniqlos-website">Refining Menu of Uniqlo's Website</a></h4>
+                </div>
+            </div>
+            <!--footer-->
+            <div class="text-center mt-12 mb-8 md:mt-16">
+                <p>Meiyee Loo © 2022</p>
+            </div>
+        </div>
+    </body>
+</html>

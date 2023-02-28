@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Customising a Delivery App for Fine Coffee & Flowers • Meiyee Loo</title>
+        <link rel="icon" type="image/png" href="../img/favicon/favicon-32x32.png">
+        <link rel="stylesheet" href="../styles.css">
+        <link rel="stylesheet" href="../function.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script src="../function.js"></script>
+    </head>
+    <body class="font-montserrat" ontouchstart="">
+        <!--top button-->
+        <div id="topBtn" style="max-width:1536px;" class="hidden m-auto flex justify-end">
+            <a href="#top" class="fixed z-10 pr-2.5 bottom-20 md:pr-5 md:bottom-24 xl:bottom-12">
+                <svg id="topBtnSvg" class="w-11 h-11 md:w-14 md:h-14" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg">                
+                    <circle id="circle1" cx="22" cy="22" r="22" />
+                    <circle id="circle2" cx="22" cy="22" r="21" stroke-width="2"/>
+                    <path d="M13 25L22.5 15L32 25" stroke-width="2"/>
+                </svg>
+            </a>
+        </div>
+        <!--main-->
+        <div class="m-auto max-w-screen-2xl px-5 md:px-10 xl:px-24">
+            <!--nav-->
+            <nav id="top" class="z-30 flex h-16 xl:h-20 justify-between items-center">
+                <!--placeholder-->
+                <div class="md:hidden">
+                    <svg width="44" height="44" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg"></svg>
+                </div>
+                <!--logo-->
+                <div>
+                    <a href=".." class="font-semibold text-lg md:text-xl xl:text-3xl">Meiyee Loo</a>
+                </div>
+                <!--nav item-->
+                <ul class="hidden md:flex md:justify-between uppercase">
+                    <li><a href=".." class="md:mr-8 xl:mr-12 opacity-50 hover:opacity-100 hover:underline">Work</a></li>
+                    <li><a href="/about" class="opacity-50 hover:opacity-100 hover:underline">About</a></li>               
+                </ul>
+                <!--nav icon-->
+                <div class="toggle md:hidden open">
+                    <div class="icon">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </div>
+            </nav>
+            <!--nav overlay-->
+            <div class="nav-overlay bg-white z-20 hidden m-auto justify-center items-center text-5xl text-center uppercase">
+                <ul>
+                    <li class="nav-overlay-gap"><a href="..">Work</a></li>
+                    <li><a href="/about">About</a></li>               
+                </ul>
+            </div>
+            <!--content-->
+            <!--article-->
+            <div>
+                <!--title section-->
+                <div class="title bg-pink-light px-5 pt-24 pb-16 md:px-10 md:pt-28 md:pb-24 xl:px-36 xl:pt-32">
+                    <div class="titleContent xl:flex xl:justify-between xl:items-center xl:gap-8">
+                        <div class="text-center xl:text-left xl:mx-0 xl:w-1/2">
+                            <p>Sep 2021</p>
+                            <h2>Customising a Delivery App for Fine Coffee & Flowers</h2>
+                            <div class="mt-2 xl:mt-5">
+                                <p>Self-Project • Food Delivery</p>
+                            </div>
+                            <div class="mt-8 xl:mt-12 flex justify-center xl:block">
+                                <div class="tag-group flex xl:justify-start">
+                                    <p class="tag">User Flow</p>
+                                    <p class="tag">Prototype Testing</p>
+                                </div>
+                                <div class="tag-group xl:mt-3 ml-3 xl:ml-0 flex xl:justify-start">
+                                    <p class="tag">Mobile App Design</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="imgWrapper mt-8 md:mt-12 flex justify-center xl:mt-0">
+                            <img src="../img/fine-coffee-and-flowers/title-mock-up.png" srcset="../img/fine-coffee-and-flowers/title-mock-up@2x.png 2x" alt="" class="block">
+
+                        </div>
+                    </div>
+                </div>
+                <!--content section-->
+                <div class="m-auto">
+
+                    <div class="mt-16 md:mt-24 snippet">
+                        <h3>Introduction</h3>
+                        <p class="mt-2.5">
+                            This was a design challenge for myself to design a food delivery app for a nearby cafe, Fine Coffee and Flowers.                        
+                        </p>
+                    </div>
+                    
+                    <div class="mt-16 md:mt-24 snippet">
+                        <h3>Problem</h3>
+                        <p class="mt-2.5">
+                            Knowing that this cafe mainly relies on third party apps such as Grab and Food Panda to gain more business, I began to think what if it has its own exclusive food delivery app to cut cost from paying commission.                        
+                        </p>
+                    </div>
+
+                    <div class="mt-16 md:mt-24">
+                        <div class="snippet">
+                            <h3>Research</h3>
+                            <p class="mt-2.5">
+                                Experienced the apps of direct and indirect competitors to explore their strengths, weeknesses, and current design trends in food delivery industry.                            
+                            </p>
+                            <div class="mt-5 md:mt-8 md:flex">
+                                <div class="md:w-1/3">
+                                    <h5>Trends</h5>
+                                    <ul class="list">
+                                        <div>
+                                            <li>Optimised UI</li>
+                                            <li>Large product image (direct competitors)</li>
+                                        </div>
+                                    </ul>
+                                </div>
+                                <div class="md:w-1/3 mt-5 md:mt-0 md:ml-2.5 xl:ml-5">
+                                    <h5>Strengths</h5>
+                                    <ul class="list">
+                                        <div>
+                                            <li>Loyalty program</li>
+                                            <li>Discounts</li>
+                                            <li>Provide options for pick up and delivery</li>
+                                        </div>
+                                    </ul>
+                                </div>
+                                <div class="md:w-1/3 mt-5 md:mt-0 md:ml-2.5 xl:ml-5">
+                                    <h5>Weaknesses</h5>
+                                    <ul class="list">
+                                        <div>
+                                            <li>Unable to modify the shopping cart (direct competitors)</li>
+                                            <li>Only 1 out of 4 apps allows in-store order</li>
+                                        </div>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <img src="../img/fine-coffee-and-flowers/competitors.png" srcset="../img/fine-coffee-and-flowers/competitors@2x.png 2x" alt="" class="m-auto mt-5 md:mt-8">
+                    </div>
+                    
+                    <div class="mt-16 md:mt-24">
+                        <div class="snippet">
+                            <h3>User Flow</h3>
+                            <p class="mt-2.5">
+                                Defined user flow to demostrate a complete ordering cycle from a new user to existing user.                            
+                            </p>
+                        </div>
+                        <img src="../img/fine-coffee-and-flowers/user-flow.png" srcset="../img/fine-coffee-and-flowers/user-flow@2x.png 2x" alt="" class="m-auto mt-5 md:mt-8">    
+                    </div>
+
+                    <div class="mt-16 md:mt-24">
+                        <div class="snippet">
+                            <h3>Wireframing, Design & Test</h3>
+                            <p class="mt-2.5">
+                                Tested design since working on low-fidelity wireframes to get earlier feedbacks on what did and did not work well. Also, observed testers reaction when interacting with prototypes to know if they were confused on certain flows.                        
+                            </p>
+                        </div>
+                        <img src="../img/fine-coffee-and-flowers/test-1.png" srcset="../img/fine-coffee-and-flowers/test-1@2x.png 2x" alt="" class="m-auto mt-5 md:mt-8">                    
+                        <img src="../img/fine-coffee-and-flowers/test-2.png" srcset="../img/fine-coffee-and-flowers/test-2@2x.png 2x" alt="" class="m-auto mt-5 md:mt-8">
+                        <img src="../img/fine-coffee-and-flowers/test-3.png" srcset="../img/fine-coffee-and-flowers/test-3@2x.png 2x" alt="" class="m-auto mt-5 md:mt-8">
+                    </div>
+
+                    <div class="mt-16 md:mt-24">
+                        <div class="snippet">
+                            <h3>Result</h3>
+                            <p class="mt-2.5">
+                                Design was finalised with the complete flow to place an delivery order.                         
+                            </p>
+                        </div>
+                        <img src="../img/fine-coffee-and-flowers/design.png" srcset="../img/fine-coffee-and-flowers/design@2x.png 2x" alt="" class="m-auto mt-5 md:mt-8">
+                    </div>
+
+                    <!--prototype - desktop & tablet only-->
+                    <div class="mt-16 md:mt-24">
+                        <div class="snippet">
+                            <h5 class="text-center">Try this prototype by ordering iced latte!</h5>
+                            <p class="text-center">(Optimised for desktop and tablet)</p>
+                        </div>
+                        <div style="max-width:860px; margin-left:auto; margin-right:auto;" class="mt-3 responsive">
+                            <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FR6UGh4fob298vRyxJZsFvp%2Fprototype%3Fnode-id%3D280%253A4646%26scaling%3Dscale-down%26page-id%3D280%253A4254%26starting-point-node-id%3D280%253A4646%26show-proto-sidebar%3D1" allowfullscreen></iframe>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <!--project navigation-->
+            <hr class="mt-12 md:mt-20">
+            <div class="mt-12 md:mt-20 flex justify-between">
+                <div class="w-5/12 md:w-1/3">
+                    <p>Previous</p>
+                    <h4><a href="/improving-registration-flow-of-ocbc-online-account-opening">Improving Registration Flow of OCBC Online Account Opening</a></h4>
+                </div>
+                <div class="ml-5 text-right w-5/12 md:w-1/3">
+                    <p>Next</p>
+                    <h4><a href="/animated-gifs-and-digital-visuals">Animated GIFs & Digital Visuals</a></h4>
+                </div>
+            </div>
+            <!--footer-->
+            <div class="text-center mt-12 mb-8 md:mt-16">
+                <p>Meiyee Loo © 2022</p>
+            </div>
+        </div>
+    </body>
+</html>

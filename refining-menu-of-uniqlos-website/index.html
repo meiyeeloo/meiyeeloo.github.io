@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Refining Menu of Uniqlo's Website • Meiyee Loo</title>
+        <link rel="icon" type="image/png" href="../img/favicon/favicon-32x32.png">
+        <link rel="stylesheet" href="../styles.css">
+        <link rel="stylesheet" href="../function.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script src="../function.js"></script>
+    </head>
+    <body class="font-montserrat" ontouchstart="">
+        <!--top button-->
+        <div id="topBtn" style="max-width:1536px;" class="hidden m-auto flex justify-end">
+            <a href="#top" class="fixed z-10 pr-2.5 bottom-20 md:pr-5 md:bottom-24 xl:bottom-12">
+                <svg id="topBtnSvg" class="w-11 h-11 md:w-14 md:h-14" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg">                
+                    <circle id="circle1" cx="22" cy="22" r="22" />
+                    <circle id="circle2" cx="22" cy="22" r="21" stroke-width="2"/>
+                    <path d="M13 25L22.5 15L32 25" stroke-width="2"/>
+                </svg>
+            </a>
+        </div>
+        <!--main-->
+        <div class="m-auto max-w-screen-2xl px-5 md:px-10 xl:px-24">
+            <!--nav-->
+            <nav id="top" class="z-30 flex h-16 xl:h-20 justify-between items-center">
+                <!--placeholder-->
+                <div class="md:hidden">
+                    <svg width="44" height="44" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg"></svg>
+                </div>
+                <!--logo-->
+                <div>
+                    <a href=".." class="font-semibold text-lg md:text-xl xl:text-3xl">Meiyee Loo</a>
+                </div>
+                <!--nav item-->
+                <ul class="hidden md:flex md:justify-between uppercase">
+                    <li><a href=".." class="md:mr-8 xl:mr-12 opacity-50 hover:opacity-100 hover:underline">Work</a></li>
+                    <li><a href="/about" class="opacity-50 hover:opacity-100 hover:underline">About</a></li>               
+                </ul>
+                <!--nav icon-->
+                <div class="toggle md:hidden open">
+                    <div class="icon">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </div>
+            </nav>
+            <!--nav overlay-->
+            <div class="nav-overlay bg-white z-20 hidden m-auto justify-center items-center text-5xl text-center uppercase">
+                <ul>
+                    <li class="nav-overlay-gap"><a href="..">Work</a></li>
+                    <li><a href="/about">About</a></li>               
+                </ul>
+            </div>
+            <!--content-->
+            <!--article-->
+            <div>
+                <!--title section-->
+                <div class="title bg-blue-light px-5 pt-24 pb-16 md:px-10 md:pt-28 md:pb-24 xl:px-36 xl:pt-32">
+                    <div class="titleContent xl:flex xl:justify-between xl:items-center xl:gap-8">
+                        <div class="text-center xl:text-left xl:mx-0 xl:w-1/2">
+                            <p>Nov 2021</p>
+                            <h2>Refining Menu of Uniqlo's Website</h2>
+                            <div class="mt-2 xl:mt-5">
+                                <p>Self-Project • eCommerce</p>
+                            </div>
+                            <div class="tag-group mt-8 xl:mt-12 flex justify-center xl:justify-start">
+                                <p class="tag">Responsive Web Design</p>
+                                <p class="tag">Prototype Testing</p>
+                            </div>
+                        </div>
+                        <div class="imgWrapper mt-8 md:mt-12 flex justify-center xl:mt-0">
+                            <img src="../img/uniqlo/title-mock-up.png" srcset="../img/uniqlo/title-mock-up@2x.png 2x" alt="" class="block">
+                        </div>
+                    </div>
+                </div>
+                <!--content section-->
+                <div class="m-auto">
+
+                    <div class="mt-16 md:mt-24 snippet">
+                        <h3>Introduction</h3>
+                        <p class="mt-2.5">
+                            This was a design challenge which got inspired when I faced difficulty shopping online on Uniqlo's website.                         
+                        </p>
+                    </div>
+                    
+                    <div class="mt-16 md:mt-24">
+                        <div class="snippet">
+                            <h3>Problem</h3>
+                            <p class="mt-2.5">
+                                When Uniqlo got more products, the website got more difficult to navigate due to improper categorising. The major and minor issues were listed down while exploring the website.                        
+                            </p>
+                        </div>
+                        <img src="../img/uniqlo/problem@2x.png" alt="" style="max-width:880px;" class="m-auto w-full mt-5 md:mt-8">                    
+                    </div>
+
+                    <div class="mt-16 md:mt-24 snippet">
+                        <h3>Issue prioritisation</h3>
+                        <p class="mt-2.5">
+                            The menu needed to be fixed first as the better the categorisation, the easier people can navigate and discover Uniqlo's products.
+                        </p>
+                        <img src="../img/uniqlo/issue-prioritisation.png" srcset="../img/uniqlo/issue-prioritisation@2x.png 2x" alt="" class="m-auto mt-5 md:mt-8">
+                    </div>
+                    
+                    <div class="mt-16 md:mt-24">
+                        <div class="snippet">
+                            <h3>Discover</h3>
+                            <p class="mt-2.5">
+                                Went through the menu across different devices and pin-pointed respective issues in details.                        
+                            </p>
+                        </div>
+                        <img src="../img/uniqlo/old-design.png" srcset="../img/uniqlo/old-design@2x.png 2x" alt="" class="m-auto mt-5 md:mt-8">
+                    </div>
+
+                    <div class="mt-16 md:mt-24">
+                        <div class="snippet">
+                            <h3>Research</h3>
+                            <p class="mt-2.5">
+                                Studied the e-commerce sites of Uniqlo's competitors' based on its Industry Ranking in 2021.                            
+                            </p>
+                            <div class="mt-5 md:mt-8 md:flex">
+                                <div class="md:w-1/2">
+                                    <h5>Strengths</h5>
+                                    <ul class="list">
+                                        <div>
+                                            <li>Clearly organised second-level menu items</li>
+                                            <li>Simple and clean design</li>
+                                            <li>Use mega menu on desktop with relevant images</li>
+                                            <li>Use sequential menu with smooth transition on mobile</li>
+                                        </div>
+                                    </ul>
+                                </div>
+                                <div class="md:w-1/2 mt-5 md:mt-0 md:ml-2.5 xl:ml-5">
+                                    <h5>Weakness</h5>
+                                    <ul class="list">
+                                        <div>
+                                            <li>Some design unoptimised on different devices</li>
+                                        </div>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <img src="../img/uniqlo/competitors.png" srcset="../img/uniqlo/competitors@2x.png 2x" alt="" class="m-auto mt-5 md:mt-8">
+                    </div>
+
+                    <div class="mt-16 md:mt-24">
+                        <div class="snippet">
+                            <h3>Wireframing</h3>
+                            <p class="mt-2.5">
+                                Sketched wireframes focusing on a organised and inspiring menu layout for different devices.                         
+                            </p>
+                        </div>
+                        <img src="../img/uniqlo/wireframe-desktop.png" srcset="../img/uniqlo/wireframe-desktop@2x.png 2x" alt="" class="m-auto mt-5 md:mt-8">
+                        <img src="../img/uniqlo/wireframe-mobile.png" srcset="../img/uniqlo/wireframe-mobile@2x.png 2x" alt="" class="m-auto mt-5 md:mt-8">
+                    </div>
+
+                    <div class="mt-16 md:mt-24">
+                        <div class="snippet">
+                            <h3>Design & Test</h3>
+                            <p class="mt-2.5">
+                                After final design was prototyped, tested it with new and exisitng Uniqlo users to compare success rate of finding instructed Uniqlo products before and after redesigning the menu.                            
+                            </p>
+                        </div>
+                        <div>
+                            <video autoplay muted loop style="width:100%; max-width:814px;" class="m-auto mt-5 md:mt-8">
+                                <source src="../img/uniqlo/prototype-desktop@2x.mp4" type="video/mp4">
+                            </video>
+                        </div>
+                        <div>
+                            <video id="P1-11" autoplay muted loop class="m-auto mt-5 md:mt-8">
+                                <source src="../img/uniqlo/prototype-mobile@2x.mp4" type="video/mp4">
+                            </video>
+                        </div>
+                    </div>
+
+                    <div class="mt-16 md:mt-24">
+                        <div class="snippet">
+                            <h3>Result</h3>
+                            <p class="mt-2.5">
+                                The success rate to locate menu items using new design was higher than using the current design.                            
+                            </p>
+                        </div>
+                        <img src="../img/uniqlo/mock-up.png" srcset="../img/uniqlo/mock-up2x.png 2x" alt="" class="m-auto mt-5 md:mt-8">
+                    </div>
+
+                </div>
+            </div>
+            <!--project navigation-->
+            <hr class="mt-12 md:mt-20">
+            <div class="mt-12 md:mt-20 flex justify-between">
+                <div class="w-5/12 md:w-1/3">
+                    <p>Previous</p>
+                    <h4><a href="/creating-digital-art-experience-of-louvre-museum">Creating Digital Art Experience of Louvre Museum</a></h4>
+                </div>
+                <div class="ml-5 text-right w-5/12 md:w-1/3">
+                    <p>Next</p>
+                    <h4><a href="/improving-registration-flow-of-ocbc-online-account-opening">Improving Registration Flow of OCBC Online Account Opening</a></h4>
+                </div>
+            </div>
+            <!--footer-->
+            <div class="text-center mt-12 mb-8 md:mt-16">
+                <p>Meiyee Loo © 2022</p>
+            </div>
+        </div>
+    </body>
+</html>
