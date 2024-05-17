@@ -317,18 +317,7 @@ hr {
   }
 }
 
-/* fixed width to center listing and description of About page on mobile view */
-.mobile-list-width {
-  max-width: 320px;
-  margin: 0 auto;
-}
-
-@media (min-width: 768px) { 
-  .mobile-list-width {
-    max-width: none;
-    margin: 0
-  }
-}
+/* styling on About page */
 
 .about-width {
   max-width: 320px;
@@ -339,6 +328,14 @@ hr {
   .about-width {
     max-width: 720px;
     margin: 48px auto 0;
+  }
+}
+
+@media (min-width: 768px) { 
+  .intro {
+    height: 176px;
+    display: flex;
+    align-items: center;
   }
 }
 
