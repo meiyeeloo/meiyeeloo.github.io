@@ -330,16 +330,14 @@ hr {
   }
 }
 
-@media (max-width: 767px) {
-  .mobile-about-width {
-    max-width: 320px;
-  }
+.about-width {
+  max-width: 320px;
+  margin: 48px auto;
 }
 
 @media (min-width: 768px) { 
-  .mobile-about-width {
+  .about-width {
     max-width: 600px;
-    margin: 0
   }
 }
 
