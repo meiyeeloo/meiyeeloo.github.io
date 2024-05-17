@@ -1237,6 +1237,10 @@ button:hover {
     margin-top: 0px;
   }
 
+  .md\:mt-2 { 
+    margin-top: 0.5rem; 
+  }
+	
   .md\:mt-3 {
     margin-top: 0.75rem;
   }
